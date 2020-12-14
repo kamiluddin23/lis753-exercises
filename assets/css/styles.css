@@ -1,11 +1,13 @@
 body {
-  background-color: #00072D;
+  background-color: #EFE6BE;
   font-family: arial, sans-serif;
   color: #001427;
+  padding: 15px;
+
 }
 
 .wrapper {
-  background-color: #ffffff;
+  background-color: #EFE6BE;
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -22,24 +24,36 @@ margin-top: 1em;
 }
 
 h1, h2 {
-  color: #003554;
+  color: #07020D;
 }
 
 
 
 blockquote {
-  border-left: 5px solid #001427;
-  padding-left: 8px;
-  background-color: #F9F8F8;
+  font-size:2.5vw;
+  color: #0B0014;
+  font-weight: bold;
+  border-left: 3px solid #454851;
+  border-right: 3px solid #454851;
+  border-top: 3px solid #454851;
+  border-bottom: 3px solid #454851;
+  padding: 11px;
+  background-color: #F8F4E3;
   margin-left: 0;
 }
 
 .image {
   text-align: center;
   margin: 2em 0;
+
 }
 
+.iframe {
+  text-align: center;
+
+}
 .caption {
+  font-family: "Times New Roman"
   font-style: italic;
   margin-top: .25em;
 }
@@ -63,7 +77,7 @@ p {
 }
 
 header {
-  background-image: url(../images/light-veneer.png);
+  background-image: url(../images/wood.jpg);
   border-bottom: 1px solid #d2d2d2;
   text-align: center;
 }
@@ -73,6 +87,6 @@ h2 {
 }
 footer.wrapper {
   text-align: center;
-  padding: 40px 20px;
-  border-top: 2px solid #d2d2d2;
+  padding: 20px 10px;
+  border-top: 2px solid #22181C;
 }
